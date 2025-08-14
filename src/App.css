@@ -24,6 +24,26 @@
   color: white;
 }
 
+.dark-mode  {
+  background-color: #121212; /* Page background color */
+  color: #ffffff;     
+  position: fixed;    /* lock in viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;       /* full viewport width */
+  height: 100vh;   /* Text color */
+}
+
+.light-mode {
+  background-color: #ffffff; /* Page background color */
+  color: #000000;           /* Text color */
+    position: fixed;    /* lock in viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;       /* full viewport width */
+  height: 100vh;
+}
+
 .App-link {
   color: #61dafb;
 }
